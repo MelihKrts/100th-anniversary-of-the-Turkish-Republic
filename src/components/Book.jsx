@@ -163,7 +163,7 @@ export const Book = () => {
                 </Page>
 
                 <Page number={9}>
-                    <div className="flag-of-Turkey"></div>
+                    <div className="flag-of-Turkey image-style"></div>
                 </Page>
 
                 <Page number={10}>
