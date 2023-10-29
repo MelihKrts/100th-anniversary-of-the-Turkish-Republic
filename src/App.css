@@ -47,7 +47,8 @@ body {
 }
 .first-image{
   background-image: url(../public/images/efendiler.jpg);
-
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .second-image{
   background-image: url(../public/images/republic.jpg);
@@ -67,5 +68,6 @@ body {
 .flag-of-Turkey{
   background-image: url(../public/images/Flag_of_Turkey.svg.webp);
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
