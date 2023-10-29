@@ -67,7 +67,6 @@ body {
 }
 .flag-of-Turkey{
   background-image: url(../public/images/Flag_of_Turkey.svg.webp);
-  height: 100vh;
   background-size: contain;
   background-repeat: no-repeat;
 }
