@@ -47,7 +47,7 @@ body {
 }
 .first-image{
   background-image: url(../public/images/efendiler.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .second-image{
