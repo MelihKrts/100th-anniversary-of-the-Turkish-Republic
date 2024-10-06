@@ -57,15 +57,15 @@ export default function Book() {
 
                     <Page title="About this Project">
                         <div className="w-full">
-                            <div className="w-full text-justify">
+                            <div className="w-full text-justify text-black">
 
-                                <p className="px-8 py-2">This project is dedicated to the 100th anniversery of the founding of the Republic of Turkey. </p>
+                                <p className="px-8 py-2 text-black">This project is dedicated to the 100th anniversery of the founding of the Republic of Turkey. </p>
 
-                                <p className="px-8 py-2">This project has been prepared and arrangements have been made for the 100th anniversery of the founding of the Republic of Turkey </p>
+                                <p className="px-8 py-2 text-black">This project has been prepared and arrangements have been made for the 100th anniversery of the founding of the Republic of Turkey </p>
 
-                                <p className="px-8 py-2">As stated in the sentence above, the project was realized on the 100th anniversary. At the time of the revision, the 101st anniversary of the founding of the Republic will be celebrated. Therefore, it is called 101 years old.</p>
+                                <p className="px-8 py-2 text-black">As stated in the sentence above, the project was realized on the 100th anniversary. At the time of the revision, the 101st anniversary of the founding of the Republic will be celebrated. Therefore, it is called 101 years old.</p>
 
-                                <p className="px-8 py-2">
+                                <p className="px-8 py-2 text-black">
                                     As the project aims to celebrate the 100th anniversary and the history of the Republic of Turkey is long and complex, a brief overview of the topics is provided.
                                 </p>
 
