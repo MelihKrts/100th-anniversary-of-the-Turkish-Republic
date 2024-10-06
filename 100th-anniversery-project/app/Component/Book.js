@@ -17,7 +17,7 @@ const Page = React.forwardRef((props, ref) => {
     return (
         <div className="bg-[#F5F5DC]" ref={ref}>
             <div className="w-full">
-                <h3 className="text-center align-middle text-2xl py-4">{props.title}</h3>
+                <h3 className="text-center align-middle text-2xl py-4 text-black">{props.title}</h3>
                 <div className="text-justify text-black">{props.children}</div>
             </div>
         </div>
