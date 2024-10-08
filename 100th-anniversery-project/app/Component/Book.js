@@ -28,7 +28,7 @@ const Page = React.forwardRef((props, ref) => {
 
 const Cover = React.forwardRef((props, ref) => {
     return (
-        <div className="bg-cover-image bg-cover bg-no-repeat bg-top-center" ref={ref}>
+        <div className="bg-cover-image bg-cover bg-no-repeat bg-top-center h-screen" ref={ref}>
             <div className="w-full">
                 <div className="w-full absolute top-24">
                     <div className={`container mx-auto flex flex-col text-white justify-center items-center 
@@ -48,7 +48,7 @@ export default function Book() {
     return (
         <section className="w-full h-screen bg-book-BG ">
             <div className="container">
-                <HTMLFlipBook width={600} height={570} size="fixed" showCover={true} maxShadowOpacity={0} mobileScrollSupport={false} className="py-2">
+                <HTMLFlipBook width={600} height={570} size="fixed" showCover={true} maxShadowOpacity={0} mobileScrollSupport={true} className="py-2">
 
                     <Cover>
                         <h4 className={` text-3xl  font-bold text-center text-white `}>Republic of Turkey</h4>
@@ -59,13 +59,13 @@ export default function Book() {
                         <div className="w-full">
                             <div className="w-full text-justify text-black">
 
-                                <p className="px-8 py-2 text-black">This project is dedicated to the 100th anniversery of the founding of the Republic of Turkey. </p>
+                                <p className="lg:px-8 sm:px-3 py-2 text-black">This project is dedicated to the 100th anniversery of the founding of the Republic of Turkey. </p>
 
-                                <p className="px-8 py-2 text-black">This project has been prepared and arrangements have been made for the 100th anniversery of the founding of the Republic of Turkey </p>
+                                <p className="lg:px-8 sm:px-3 py-2 text-black">This project has been prepared and arrangements have been made for the 100th anniversery of the founding of the Republic of Turkey </p>
 
-                                <p className="px-8 py-2 text-black">As stated in the sentence above, the project was realized on the 100th anniversary. At the time of the revision, the 101st anniversary of the founding of the Republic will be celebrated. Therefore, it is called 101 years old.</p>
+                                <p className="lg:px-8 sm:px-3 py-2 text-black">As stated in the sentence above, the project was realized on the 100th anniversary. At the time of the revision, the 101st anniversary of the founding of the Republic will be celebrated. Therefore, it is called 101 years old.</p>
 
-                                <p className="px-8 py-2 text-black">
+                                <p className="lg:px-8 sm:px-3 py-2 text-black">
                                     As the project aims to celebrate the 100th anniversary and the history of the Republic of Turkey is long and complex, a brief overview of the topics is provided.
                                 </p>
 
